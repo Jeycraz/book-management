@@ -141,18 +141,6 @@ document.querySelector('#book-list').addEventListener("click", (e) => {
 
 console.log(Store.getBooks())
 
-/*let rowInners = [book.title, book.author, book.isbn];
-for (let rowInner of rowInners) {
-    let rowContent = document.createElement("td");
-    rowContent.innerText = `${rowInner}`;
-    list.appendChild(row)
-    row.appendChild(rowContent);
-};
-let iconX = document.createElement("td");
-iconX.classList.add('btn', 'btn-danger', 'btn-sm', 'delete');
-iconX.href = "#";
-iconX.innerText = "X";
-row.appendChild(iconX)*/
 
 let myObj = {
     name: "Domenic",
